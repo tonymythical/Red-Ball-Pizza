@@ -1,0 +1,96 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Anthony Margullis
+    Date: Aug 14, 2024
+    File: other.css
+    Descr: Exemplify different styles to apply via CSS.
+ */
+
+#deals div {
+  border: 4px dashed rgb(185, 7, 7);
+  margin: 12px;
+  max-height: 200px;
+}
+
+main {
+  border-left: solid;
+  border-right: solid;
+  border-width: 4px;
+  border-color: rgb(185, 7, 7);
+  background-color: white;
+}
+
+main p {
+  padding: 10px;
+}
+
+.horizontal {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+header img {
+  width: 100%;
+  max-height: 100%;
+}
+
+body {
+  background-image: url(parlor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div:nth-child(2n) {
+  background-color: rgb(220, 216, 216);
+}
+
+div:nth-child(2n + 1) {
+  background-color: rgb(255, 206, 206);
+}
+
+#deals div > p:nth-child(3) {
+  font-weight: bold;
+}
+
+.vertical ul li {
+  border-radius: 5px;
+  margin: 8px;
+  padding: 3px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(185, 7, 7) 0%,
+    rgba(185, 7, 7, 0.4),
+    rgba(185, 7, 7, 0)
+  );
+}
+
+.vertical a {
+  color: white;
+  margin-left: 7px;
+}
+
+.vertical {
+  margin-top: 30px;
+}
+
+aside h1 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+aside li {
+  border: rgb(185, 7, 7) 2px solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(217, 217, 217) 0%,
+    rgba(243, 113, 113, 0.4),
+    rgb(239, 99, 99)
+  );
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
